@@ -1,0 +1,115 @@
+<mxfile host="65bd71144e">
+    <diagram id="Ek28gAYluiZjqxpAqC49" name="Page-1">
+        <mxGraphModel dx="1581" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="1" source="5" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="-390.00000000000045" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="-220" y="-390"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="-390.00000000000045" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="480" y="-390"/>
+                            <mxPoint x="720" y="-390"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="The sum of number loop" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="-480" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="edgeStyle=none;html=1;" parent="1" source="6" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-280" y="-370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;html=1;rounded=0;" parent="1" target="19" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="-270" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="-270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="1" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="-270" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="130" y="-270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="1" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="-270" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint y="-270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="Process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="-370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;rounded=0;html=1;" parent="1" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="640" y="-300" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="850" y="-300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="1" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="660" y="-300" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="590" y="-300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="10" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="-370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Enter your number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-280" y="-250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="guess is correct" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="790" y="-270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Integer_input &amp;gt; random_number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="340" y="-210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Integer_input &amp;lt; random_number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="-210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="generate random_number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-60" y="-210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Number is too big" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="-270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Integer_input &amp;gt; random_number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="-210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Number is too small" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="-270" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
