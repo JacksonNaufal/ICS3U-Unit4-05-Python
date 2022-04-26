@@ -19,12 +19,12 @@ def main():
         for integer in range(user_input):
             user_number = input("Enter another number!: ")
             user_input = int(user_number)
-                
+
             if user_input < 0:
-                    continue
-                
+                continue
+
             total = total + user_input
-                
+
         print("The sum is {0}.".format(total))
     except Exception:
         print("\nThat was not an integer")
