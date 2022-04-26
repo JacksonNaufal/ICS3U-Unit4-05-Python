@@ -4,39 +4,30 @@
 # Created on: March 2022
 # This is a guess the random number program
 
-import random
-
 
 def main():
     # This is a random number guesser, with try and catch
-
+    integer = 0
+    total = 0
     # input
-    random_number = random.randint(0, 9)  # a number between 0 and 9
-    counter = 0
-
+    user_number = input("Enter Your Number: ")
     # process & output
-    while True:
-        guess_number_string = input("\nEnter your first guess here (0-9): ")
-        try:
-            guess_number = int(guess_number_string)
-            counter += 1
-            if guess_number < 0 or guess_number > 9:
-                print("\nInvalid Number!")
-            else:
-                if guess_number > random_number:
-                    print("\nGuess number is too high!")
-                elif guess_number < random_number:
-                    print("\nGuess number is to low")
-                else:
-                    print("You guessed correctly!")
-                    print("\nThe correct number is {0}.".format(random_number))
-                    print("It took you {0} guesses!".format(counter))
-                    # how many times through
-                    print("\nDone.")
-                    break
+    try:
 
-        except Exception:
-            print("\nThat was not an integer")
+        user_input = int(user_number)
+
+        for integer in range(user_input):
+            user_number = input("Enter another number!: ")
+            user_input = int(user_number)
+                
+            if user_input < 0:
+                    continue
+                
+            total = total + user_input
+                
+        print("The sum is {0}.".format(total))
+    except Exception:
+        print("\nThat was not an integer")
 
 
 if __name__ == "__main__":
